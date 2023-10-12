@@ -7,7 +7,20 @@ const initialState={
     fullname: 'Emir Tetik',
     avatar: 'https://pbs.twimg.com/profile_images/1711840191399256064/JTjHdd64_normal.jpg'
   },
-  accounts: []
+  accounts: [
+    {
+      id:1,
+      username: 'Frontmir',
+      fullname: 'Emir Tetik',
+      avatar: 'https://pbs.twimg.com/profile_images/1711840191399256064/JTjHdd64_normal.jpg'
+    },
+    {
+      id:2,
+      username: 'Emirfy',
+      fullname: 'Emir Teto',
+      avatar: 'https://pbs.twimg.com/profile_images/1711840191399256064/JTjHdd64_normal.jpg'
+    },
+  ]
 }
 
  const auth = createSlice({
