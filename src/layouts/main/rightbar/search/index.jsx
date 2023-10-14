@@ -3,7 +3,7 @@ import React from "react";
 export default function Search() {
  
   const [query, setQuery] = React.useState("");
-  const [focus, setFocus] = React.useState(true);
+  const [focus, setFocus] = React.useState(false);
   
  
 //   const ref = useClickAway(ref, () => {
@@ -14,7 +14,7 @@ export default function Search() {
     
     <div 
     //  ref={ref}
-    className="min-h-[32px] h-[53px] mb-3 flex items-center relative">
+    className="min-h-[32px] h-[53px] mb-3 flex items-center sticky top-0 bg-black z-10">
       <label
         htmlFor=""
         className="h-[43px] rounded-full bg-[#202327] relative w-full group border border-transparent focus-within:bg-black focus-within:border-[#1d9bf0]"
@@ -38,8 +38,8 @@ export default function Search() {
           onChange={(e) => setQuery(e.target.value)}
           onFocus={() => setFocus(true)}
           onBlur={() => setFocus(false)}
-          placeholder="Search"
-          className="w-full h-full bg-transparent pl-[55px]  outline-none "
+          placeholder="Ara"
+          className="w-full h-full bg-transparent pl-[55px]  outline-none placeholder-[#71767b] "
         />
         {query && focus && (
           <button
@@ -57,7 +57,7 @@ export default function Search() {
         )}
      
       </label>
-         {focus && (
+      {focus && (
           <div 
            onClick={() => setFocus(true)}
           className="absolute mi-h-[100px] w-[350px] -left-px -translate-y-1 rounded-lg bg-black top-full  shadow-box max-h[calc(80vh-53px)]">

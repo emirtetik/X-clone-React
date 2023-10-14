@@ -266,3 +266,66 @@ export const mainMenu = [
     },
   },
 ];
+
+
+export const topics = [
+  {
+    title: 'Türkiye tarihinde gündemde',
+    topic: {
+      type: 'tag', 
+      value: 'Dilanpolat'
+    }
+  },
+  {
+    title: 'Türkiye tarihinde gündemde',
+    topic: {
+      type: 'query',
+      value: 'Starlink'
+    },
+    postCount: 2495
+  },
+{
+  title: 'Türkiye tarihinde gündemde',
+  topic: {
+    type: 'query',
+    value: 'Starlink'
+  },
+  postCount: 2495
+},
+{
+  title: 'Türkiye tarihinde gündemde',
+  topic: {
+    type: 'tag', 
+    value: 'Dilanpolat'
+  }
+},
+{
+  title: 'Türkiye tarihinde gündemde',
+  topic: {
+    type: 'tag', 
+    value: 'Dilanpolat'
+  }
+},
+{
+  title: 'Türkiye tarihinde gündemde',
+  topic: {
+    type: 'tag', 
+    value: 'Dilanpolat'
+  }
+},
+{
+  title: 'Türkiye tarihinde gündemde',
+  topic: {
+    type: 'tag', 
+    value: 'Dilanpolat'
+  }
+},
+{
+  title: 'Türkiye tarihinde gündemde',
+  topic: {
+    type: 'tag', 
+    value: 'Dilanpolat'
+  }
+},
+
+];
