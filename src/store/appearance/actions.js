@@ -1,6 +1,7 @@
 import { store } from "..";
-import { _setAppearanceBackgroundColor, _setAppearanceColor, _setFontSize } from "./actions";
+import {_setAppearanceColor,_setBoxShadow,_setFontSize,_setAppearanceBackgroundColor } from "./index";
 
-export const setAppearanceBackgroundColor = (data) => {return store.dispatch(_setAppearanceBackgroundColor(data))};
+export const setAppearanceBackgroundColor = data => store.dispatch(_setAppearanceBackgroundColor(data))
 export const setAppearanceColor = data => store.dispatch(_setAppearanceColor(data))
 export const setFontSize = data => store.dispatch(_setFontSize(data))
+export const setBoxShadow = data => store.dispatch(_setBoxShadow(data))

@@ -16,7 +16,7 @@ export default function UserCard({ user }) {
   }
 
   return (
-    <button className="flex gap-3 px-4 py-3 hover:bg-[#eff3f41a] transition-colors items-center ">
+    <button className="flex gap-3 px-4 py-3 hover:bg-[var(--background-third)] transition-colors items-center ">
       <img
         src={user.avatar}
         alt="merhaba"
@@ -29,7 +29,7 @@ export default function UserCard({ user }) {
             <svg
               width={19}
               viewBox="0 0 22 22"
-              className="text-[#1d9bf0] ml-0.5"
+              className="text-[var(--color-primary)] ml-0.5"
             >
               <path
                 fill="currentColor"
@@ -38,7 +38,7 @@ export default function UserCard({ user }) {
             </svg>
           )}
         </div>
-        <div className="text-[#71767b] ">{user.username}</div>
+        <div className="text-[var(--color-base-secondary)] ">{user.username}</div>
       </div>
 
       <div>

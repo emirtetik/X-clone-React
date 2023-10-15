@@ -12,7 +12,7 @@ export default function RightbarSection({title, children, more}){
       {more && (
            <Link
            to={more}
-           className="flex items-center px-4 py-3 rounded-2xl text-[var(--color-primary)] hover:bg-[#eff3f41a] transition-colors "
+           className="flex items-center px-4 py-3 rounded-2xl text-[var(--color-primary)] hover:bg-[var(--background-third)] transition-colors "
          >
            daha fazla göster
          </Link>

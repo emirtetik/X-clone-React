@@ -11,13 +11,13 @@ export default function Account() {
         <div className="relative mt-auto">
         <Popover >
             <Popover.Button 
-            className="p-3 my-3 rounded-full hover:bg-[#eff3f41a] w-full flex items-center transition-colors outline-none"
+            className="p-3 my-3 rounded-full hover:bg-[var(--background-secondary)] w-full flex items-center transition-colors outline-none"
             >
              <img className="w-10 h-10 rounded-full" src={account.avatar} alt="avatar" />
 
              <div className="mx-3 text-[15px] text-[var(--color-base)] ">
             <h6 className="font-bold leading-[20px]"> {account.fullname}</h6>
-             <div className="mx-3 text-[15px] text-[#71767b] ">
+             <div className="mx-3 text-[15px] text-[var(--color-base-secondary)] ">
              @{account.username}
              </div>
              </div>

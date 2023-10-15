@@ -2,12 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    @apply bg-[color:var(--background-primary)]  text-[var(--color-base)] text-[15px] antialiased;
+:root{
+     font-size: var(--font-size);
 }
 
+body{
+    @apply bg-[color:var(--background-primary)]  text-[var(--color-base)] text-[0.938rem] antialiased;
+}
+
+
+.shadow-box{
+    box-shadow: var(--box-shadow);
+}
 /* sol sidebar : 275px
 sağ sidebar : 350px
 contetn alanı : auto
 genişlik : 1265px
  */
+ /* rgba(101, 119, 134, 0.2) 0px 0px 15px, rgba(101, 119, 134, 0.15) 0px 0px 3px 1px */

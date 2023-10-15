@@ -1,5 +1,4 @@
-import {store} from '~/store'
-
+import { store } from "~/store";
 
 export const mainMenu = [
   {
@@ -14,7 +13,7 @@ export const mainMenu = [
           height={26}
           className="block"
         >
-          <path d="M12 1.696L.622 8.807l1.06 1.696L3 9.679V19.5C3 20.881 4.119 22 5.5 22h13c1.381 0 2.5-1.119 2.5-2.5V9.679l1.318.824 1.06-1.696L12 1.696zM12 16.5c-1.933 0-3.5-1.567-3.5-3.5s1.567-3.5 3.5-3.5 3.5 1.567 3.5 3.5-1.567 3.5-3.5 3.5z"></path>
+          <path d="M21.591 7.146L12.52 1.157c-.316-.21-.724-.21-1.04 0l-9.071 5.99c-.26.173-.409.456-.409.757v13.183c0 .502.418.913.929.913H9.14c.51 0 .929-.41.929-.913v-7.075h3.909v7.075c0 .502.417.913.928.913h6.165c.511 0 .929-.41.929-.913V7.904c0-.301-.158-.584-.408-.758z"></path>
         </svg>
       ),
       passive: (
@@ -234,9 +233,8 @@ export const mainMenu = [
     },
   },
   {
-
     path: () => {
-       return `/${store.getState()?.auth?.currentAccount?.username}`
+      return `/${store.getState()?.auth?.currentAccount?.username}`;
     },
     title: "Profil",
     icon: {
@@ -267,44 +265,59 @@ export const mainMenu = [
   },
 ];
 
-
 export const topics = [
   {
-    title: 'Türkiye tarihinde gündemde',
+    title: "Türkiye tarihinde gündemde",
     topic: {
-      type: 'tag', 
-      value: 'Dilanpolat'
-    }
+      type: "tag",
+      value: "Dilanpolat",
+    },
   },
   {
-    title: 'Türkiye tarihinde gündemde',
+    title: "Türkiye tarihinde gündemde",
     topic: {
-      type: 'query',
-      value: 'Starlink'
+      type: "query",
+      value: "Starlink",
     },
-    postCount: 2495
+    postCount: 2495,
   },
-{
-  title: 'Türkiye tarihinde gündemde',
-  topic: {
-    type: 'query',
-    value: 'Starlink'
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 2495,
   },
-  postCount: 2495
-},
-{
-  title: 'Türkiye tarihinde gündemde',
-  topic: {
-    type: 'tag', 
-    value: 'Dilanpolat'
-  }
-},
-{
-  title: 'Türkiye tarihinde gündemde',
-  topic: {
-    type: 'tag', 
-    value: 'Dilanpolat'
-  }
-},
-
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "tag",
+      value: "Dilanpolat",
+    },
+  },
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "tag",
+      value: "Dilanpolat",
+    },
+  },
 ];
+
+export const colors = [
+  { primary: "#1d9bf0", secondary: "#8ecdf8" },
+  { primary: "#ffd400", secondary: "#ffea80" },
+  { primary: "#f91880", secondary: "#fc8cc0" },
+  { primary: "#7856ff", secondary: "#bcabff" },
+  { primary: "#ff7a00", secondary: "#ffbd80" },
+  { primary: "#00ba7c", secondary: "#80ddbe" },
+];
+
+export const fontSizes = [
+  14,
+  15,
+  16,
+  18,
+  19
+]

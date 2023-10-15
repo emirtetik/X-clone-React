@@ -6,15 +6,15 @@ export default function OpenAccount() {
     const accounts = useAccounts();
 
   return (
-    <div className="text-white">
+    <div className="">
       {accounts.map((account,i) =>  (
         <div key={i}>
           <button
             type="button"
             disabled={currentAccount.id === account.id}
             onClick={() => {setCurrentAccount(account)}}
-            className={classNames("flex items-center px-4 py-3 text-left  w-full transition-colors hover:bg-[#eff3f41a]", {
-             "hover:bg-[#eff3f41a]": currentAccount.id !== accounts.id
+            className={classNames("flex items-center px-4 py-3 text-left  w-full transition-colors hover:bg-[var(--background-secondary)]", {
+             "hover:bg-[var(--background-secondary)]": currentAccount.id !== accounts.id
           })}>
             <img
               className="w-10 h-10 rounded-full"
@@ -36,14 +36,14 @@ export default function OpenAccount() {
           </button>
         </div>
       ))}
-      <div className="h-px bg-[#2f3336] my-3"/>
-      <button className="px-4 py-3 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold text-[15px]  leading-[20px]">
+      <div className="h-px bg-[var(--background-secondary)] my-3"/>
+      <button className="px-4 py-3 text-left transition-colors hover:bg-[var(--background-secondary)] w-full font-bold text-[15px]  leading-[20px]">
          Var olan bir hesap ekle
       </button>
-      <button className="px-4 py-3 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold text-[15px]  leading-[20px]">
+      <button className="px-4 py-3 text-left transition-colors hover:bg-[var(--background-secondary)] w-full font-bold text-[15px]  leading-[20px]">
          Hesapları yönet
       </button>
-      <button className="px-4 py-3 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold text-[15px]  leading-[20px]">
+      <button className="px-4 py-3 text-left transition-colors hover:bg-[var(--background-secondary)] w-full font-bold text-[15px]  leading-[20px]">
           <div className="max-w-[228px] ">
           @Frontmir hesabından çıkış yap
           </div>
