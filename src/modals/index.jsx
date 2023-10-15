@@ -1,0 +1,13 @@
+import modals from "~/routes/modals"
+export default function Modal(){
+ 
+     const currentModal = modals.find(modal => modal.name === "appearanceModal")
+
+    return(
+        <div className="fixed inset-0 z-20 flex items-center justify-center bg-[#5b7083]/40"> 
+        <div className="bg-[var(--background-primary)] max-w-[600px] rounded-2xl max-h-[90vh] overflow-auto">
+        {currentModal && <currentModal.element/>}
+        </div>
+        </div>
+    )
+}

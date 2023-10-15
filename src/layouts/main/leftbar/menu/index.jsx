@@ -15,13 +15,13 @@ export default function Menu() {
           {({ isActive }) => (
             <div
               className={classNames(
-                "inline-flex items-center transition-colors p-3 rounded-full gap-5  group-hover:bg-[#eff3f41a]",
+                "inline-flex items-center transition-colors p-3 rounded-full gap-5  text-[var(--color-base)] group-hover:bg-[#eff3f41a]",
                 { "font-bold": isActive }
               )}
             >
               <div className="w-[26px] h-[26px] relative ">
                 {menu?.notifications && (
-                  <span className="absolute flex items-center justify-center -top-1.5 text-[11px] -right-1 w-[18px] h-[18px] rounded-full bg-[#1d9bf0]">
+                  <span className="absolute flex items-center justify-center -top-1.5 text-[11px] -right-1 w-[18px] h-[18px] rounded-full bg-[var(--color-primary)]">
                     {menu?.notifications}
                   </span>
                 )}

@@ -23,7 +23,7 @@ export default function UserCard({ user }) {
         className="object-cover w-10 h-10 rounded-full "
       />
       <div className="flex flex-col flex-1 text-left ">
-        <div className="flex items-center text-[#e7e9ea] font-bold leading-5">
+        <div className="flex items-center text-[var(--color-base)] font-bold leading-5">
           {user.fullname}
           {user?.verified && (
             <svg

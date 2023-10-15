@@ -14,17 +14,17 @@ export default function Search() {
     
     <div 
     //  ref={ref}
-    className="min-h-[32px] h-[53px] mb-3 flex items-center sticky top-0 bg-black z-10">
+    className="min-h-[32px] h-[53px] mb-3 flex items-center sticky top-0 bg-[var(--background-primary)] z-10">
       <label
         htmlFor=""
-        className="h-[43px] rounded-full bg-[#202327] relative w-full group border border-transparent focus-within:bg-black focus-within:border-[#1d9bf0]"
+        className="h-[43px] rounded-full bg-[var(--background-third)] relative w-full group border border-transparent focus-within:bg-[var(--background-primary)] focus-within:border-[var(--color-primary)]"
       >
         <div className="w-[55px] h-full flex justify-center items-center absolute top-0 left-0 pointer-events-none">
           <svg
             viewBox="0 0 24 24"
             width={19}
             height={19}
-            className=" min-h-[32px] text-[#71767b] "
+            className=" min-h-[32px] text-[var(--color-base-secondary)]  group-focus-within:text-[var(--color-primary)]"
           >
             <path
               fill="currentColor"
@@ -39,13 +39,13 @@ export default function Search() {
           onFocus={() => setFocus(true)}
           onBlur={() => setFocus(false)}
           placeholder="Ara"
-          className="w-full h-full bg-transparent pl-[55px]  outline-none placeholder-[#71767b] "
+          className="w-full h-full bg-transparent pl-[55px]  outline-none placeholder-[var(--color-base-secondary)] "
         />
         {query && focus && (
           <button
             type="button"
             onClick={() => setQuery("")}
-            className="w-5 h-5 rounded-full bg-[#1d9bf0]  flex items-center justify-center text-black min-w-[22px] absolute top-1/2 -translate-y-1/2 right-3 "
+            className="w-5 h-5 rounded-full bg-[var(--color-primary)]  flex items-center justify-center text-black min-w-[22px] absolute top-1/2 -translate-y-1/2 right-3 "
           >
             <svg viewBox="0 0 15 15" width={10} height={10}>
               <path
@@ -60,8 +60,8 @@ export default function Search() {
       {focus && (
           <div 
            onClick={() => setFocus(true)}
-          className="absolute mi-h-[100px] w-[350px] -left-px -translate-y-1 rounded-lg bg-black top-full  shadow-box max-h[calc(80vh-53px)]">
-           <p className="p-3 pt-5 text-[#71767b] text-center leading-5">
+          className="absolute mi-h-[100px] w-[350px] -left-px -translate-y-1 rounded-lg bg-[var(--background-primary)] top-full  shadow-box max-h[calc(80vh-53px)]">
+           <p className="p-3 pt-5 text-[var(--color-base-secondary)] text-center leading-5">
            Try searching for people, lists, or keywords
            </p>
           </div>

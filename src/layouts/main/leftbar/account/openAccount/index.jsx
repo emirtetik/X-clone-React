@@ -24,7 +24,7 @@ export default function OpenAccount() {
 
             <div className="mx-3 text-[15px] flex-1">
               <h6 className="font-bold leading-[20px]"> {account.fullname}</h6>
-              <div className="mx-3 text-[15px] text-[#71767b]  ">
+              <div className="mx-3 text-[15px] text-[var(--color-base-secondary)]  ">
                 @{account.username}
               </div>
             </div>
@@ -37,13 +37,13 @@ export default function OpenAccount() {
         </div>
       ))}
       <div className="h-px bg-[#2f3336] my-3"/>
-      <button className="px-4 py-3 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold text-[15px] text-[#e7e9ea] leading-[20px]">
+      <button className="px-4 py-3 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold text-[15px]  leading-[20px]">
          Var olan bir hesap ekle
       </button>
-      <button className="px-4 py-3 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold text-[15px] text-[#e7e9ea] leading-[20px]">
+      <button className="px-4 py-3 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold text-[15px]  leading-[20px]">
          Hesapları yönet
       </button>
-      <button className="px-4 py-3 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold text-[15px] text-[#e7e9ea] leading-[20px]">
+      <button className="px-4 py-3 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold text-[15px]  leading-[20px]">
           <div className="max-w-[228px] ">
           @Frontmir hesabından çıkış yap
           </div>

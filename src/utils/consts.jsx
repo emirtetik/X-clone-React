@@ -9,7 +9,7 @@ export const mainMenu = [
       active: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -20,7 +20,7 @@ export const mainMenu = [
       passive: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -37,7 +37,7 @@ export const mainMenu = [
       active: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -48,7 +48,7 @@ export const mainMenu = [
       passive: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -66,7 +66,7 @@ export const mainMenu = [
       active: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -77,7 +77,7 @@ export const mainMenu = [
       passive: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -95,7 +95,7 @@ export const mainMenu = [
       active: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -107,7 +107,7 @@ export const mainMenu = [
       passive: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -125,7 +125,7 @@ export const mainMenu = [
       active: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -136,7 +136,7 @@ export const mainMenu = [
       passive: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -153,7 +153,7 @@ export const mainMenu = [
       active: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -165,7 +165,7 @@ export const mainMenu = [
       passive: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -182,7 +182,7 @@ export const mainMenu = [
       active: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -193,7 +193,7 @@ export const mainMenu = [
       passive: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -210,7 +210,7 @@ export const mainMenu = [
       active: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -222,7 +222,7 @@ export const mainMenu = [
       passive: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -243,7 +243,7 @@ export const mainMenu = [
       active: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -255,7 +255,7 @@ export const mainMenu = [
       passive: (
         <svg
           viewBox="0 0 24 24"
-          fill="#e7e9ea"
+          fill="currentColor"
           width={26}
           height={26}
           className="block"
@@ -291,27 +291,6 @@ export const topics = [
     value: 'Starlink'
   },
   postCount: 2495
-},
-{
-  title: 'Türkiye tarihinde gündemde',
-  topic: {
-    type: 'tag', 
-    value: 'Dilanpolat'
-  }
-},
-{
-  title: 'Türkiye tarihinde gündemde',
-  topic: {
-    type: 'tag', 
-    value: 'Dilanpolat'
-  }
-},
-{
-  title: 'Türkiye tarihinde gündemde',
-  topic: {
-    type: 'tag', 
-    value: 'Dilanpolat'
-  }
 },
 {
   title: 'Türkiye tarihinde gündemde',
