@@ -1,6 +1,7 @@
 import classNames from "classnames";
 import { createElement } from "react";
 import PropTypes from "prop-types";
+
 // eslint-disable-next-line react/prop-types
 export default function Button({as, children, size, variant, ...props}) {
   return createElement(

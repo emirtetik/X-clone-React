@@ -124,7 +124,7 @@ export default function AppearanceModal({ close }) {
                   }
                 )}
               >
-                <div className="w-10 h-10 rounded-full group-hover:bg-white/10 flex-shrink-0 flex items-center justify-center ">
+                <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-full group-hover:bg-white/10 ">
                   <div
                     className={classNames(
                       "w-5 h-5 rounded-full border-2 border-[#3e4144] ",
@@ -156,7 +156,7 @@ export default function AppearanceModal({ close }) {
                   }
                 )}
               >
-                <div className="w-10 h-10 rounded-full group-hover:bg-white/5 flex-shrink-0 flex items-center justify-center ">
+                <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-full group-hover:bg-white/5 ">
                   <div
                     className={classNames(
                       "w-5 h-5 rounded-full border-2 border-[#5c6e7e] ",
@@ -187,7 +187,7 @@ export default function AppearanceModal({ close }) {
                   }
                 )}
               >
-                <div className="w-10 h-10 rounded-full group-hover:bg-white/10 flex-shrink-0 flex items-center justify-center ">
+                <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-full group-hover:bg-white/10 ">
                   <div
                     className={classNames(
                       "w-5 h-5 rounded-full border-2 border-[#3e4144] ",
@@ -212,7 +212,7 @@ export default function AppearanceModal({ close }) {
             </div>
           </section>
         </div>
-        <div className="flex items-center justify-center pt-4">
+        <div className="flex items-center justify-center pt-4 ">
           <Button onClick={close} >bitti</Button>
         </div>
       </div>
